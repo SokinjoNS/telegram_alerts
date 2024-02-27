@@ -1,4 +1,3 @@
-# telegram_alerts.py
 import requests
 import json
 
