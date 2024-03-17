@@ -33,3 +33,21 @@ def send_telegram_message(alert_details):
     
     # Return the response
     return response.json()
+
+def handle_and_send_message(source, details, credentials):
+    # Construct the message based on the source and details
+    if source in ['dextools', 'dexscreener', 'direct_address']:
+        token_address = details.get('token_address', 'Not Specified')
+        message = f"{source.title()} Token Detected: {token_address}"
+    else:
+        message = "Alert: Details not specified"
+
+    # Adjusted to use 'response_chat_id' for directing messages to a specific chat
+    bot_token = credentials['bot_token_1']
+    chat_id = credentials['response_chat_id']  # Changed to 'response_chat_id'
+
+    # Correctly format the API request URL
+    send_text = f'https://api.telegram.org/bot{bot_token}/sendMessage?chat_id={chat_id}&text={message}'
+    response = requests.get(send_text)
+    if response.status_code != 200:
+        print(f"Failed to send message: {response.text}")
