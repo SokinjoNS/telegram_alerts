@@ -15,8 +15,11 @@ __- Secure Configuration:__ Manages sensitive information such as API keys and b
 # Dependencies
 
 __- Python 3.6+:__ Required for running the script.
+
 __- Requests:__ For making HTTP requests to the Telegram API.
+
 __- formatting_btk:__ A custom module for formatting numbers.
+
 __- alert_levels_tg:__ A custom module for determining and describing alert levels based on predefined criteria.
 
 ## Installation
