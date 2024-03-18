@@ -78,7 +78,7 @@ This will format and send an alert message to the specified Telegram chat or cha
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to fork the repository, make your changes, and submit a pull request.
 
 ## Support
 
