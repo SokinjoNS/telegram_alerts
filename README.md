@@ -5,8 +5,11 @@ The __telegram_alerts.py__ is a comprehensive alerting module designed for a Tel
 ## Features
 
 __- Versatile Alerting:__ Supports a wide range of alerts including exchange volume changes, Dextools and Dexscreener link detections, and direct address alerts.
+
 __- Dynamic Message Formatting:__ Leverages the __formatting_btk__ module to format numerical values for easier readability.
+
 __- Alert Level Analysis:__ Integrates with __alert_levels_tg__ to assess and communicate the significance of volume changes.
+
 __- Secure Configuration:__ Manages sensitive information such as API keys and bot tokens through a dedicated __credentials_telegram.json__ file.
 
 # Dependencies
