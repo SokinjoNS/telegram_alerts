@@ -12,7 +12,7 @@ __- Alert Level Analysis:__ Integrates with __alert_levels_tg__ to assess and co
 
 __- Secure Configuration:__ Manages sensitive information such as API keys and bot tokens through a dedicated __credentials_telegram.json__ file.
 
-# Dependencies
+## Dependencies
 
 __- Python 3.6+:__ Required for running the script.
 
